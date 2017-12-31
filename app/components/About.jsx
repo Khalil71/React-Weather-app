@@ -3,8 +3,16 @@ var React = require('react');
 var About = () => {
   return (
     <div>
-      <h3>About</h3>
-      <p>This is about us</p>
+      <h1 className="text-center">About</h1>
+      <p>This is my first React app so don't judge or do, I couldn't care less</p>
+      <ul>
+        <li>
+          <a href="https://github.com/Khalil71/React-Weather-app">GitHub Repo</a>
+        </li>
+        <li>
+          <a href="https://twitter.com/Khalil911">Twitter page</a>
+        </li>
+      </ul>
     </div>
   )
 };
